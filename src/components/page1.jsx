@@ -3,15 +3,13 @@ import BusinessIcon from "@mui/icons-material/Business";
 import StarsIcon from '@mui/icons-material/Stars';
 import LanguageIcon from '@mui/icons-material/Language';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
-import Header from "./header";
 import { blue } from "@mui/material/colors";
-import LinesEllipsis from 'react-lines-ellipsis'
+import '../App.css';
 
 function Page1() {
   return (
     
-    <>
-      <Header />
+    <div className="page1">
       <div style={{ display: "flex", flexDirection: "column", padding: "50px" }}>
         {/* Title Section */}
         <h1 style={{ width: "70%", textAlign: "left", marginBottom: "15px" , padding: "0px"}}>
@@ -169,7 +167,7 @@ function Page1() {
 
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
