@@ -31,7 +31,11 @@
   }
   
   .page5-accordion-summary {
+    color: black;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    
   }
   
   .page5-accordion-details {

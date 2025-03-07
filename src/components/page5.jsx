@@ -4,7 +4,7 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
 
 function Page5() {
   const faqData = [
@@ -38,8 +38,10 @@ function Page5() {
       <hr className="page5-divider" />
       {faqData.map((faq, index) => (
         <Accordion key={index} className="page5-accordion">
-          <AccordionSummary expandIcon={<ExpandMoreIcon />} className="page5-accordion-summary">
+          <AccordionSummary expandIcon={<ExpandCircleDownIcon />} className="page5-accordion-summary">
+          
             <Typography variant="h6" style={{ color: "black" , fontSize: "16px", fontWeight: "550"}}>{faq.question}</Typography>
+            <ExpandCircleDownIcon style={{color: "black" , fontSize: "16px"}}/>
           </AccordionSummary>
           <AccordionDetails className="page5-accordion-details">
             <Typography style={{ color: "black" }}>{faq.answer}</Typography>

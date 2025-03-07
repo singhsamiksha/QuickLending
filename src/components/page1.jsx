@@ -3,9 +3,9 @@ import { Avatar, AvatarGroup, CardContent, Typography } from "@mui/material";
 import BusinessIcon from "@mui/icons-material/Business";
 import StarsIcon from "@mui/icons-material/Stars";
 import LanguageIcon from "@mui/icons-material/Language";
-import CurrencyExchangeIcon from "@mui/icons-material/CurrencyExchange";
+import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 import { blue } from "@mui/material/colors";
-import "./page1.css"; // Import the new CSS file
+import "./page1.css"; 
 
 function Page1() {
   return (
@@ -61,7 +61,7 @@ function Page1() {
               </CardContent>
             ))}
             <CardContent className="loan-card">
-              <CurrencyExchangeIcon className="loan-card-icon" sx={{ backgroundColor: blue }} />
+              <StarsIcon className="loan-card-icon" sx={{ backgroundColor: blue }} />
               <Typography className="loan-card-text">
                 Residential & commercial loan
               </Typography>
