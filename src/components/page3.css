@@ -1,0 +1,67 @@
+.page3-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 50px;
+    background-color: rgb(19, 24, 48);
+  }
+  
+  .page3-left {
+    width: 40%;
+    padding: 50px;
+  }
+  
+  .page3-left p {
+    font-size: 16px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+  }
+  
+  .page3-left h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .page3-left h1 span {
+    color: red;
+  }
+  
+  .page3-divider {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 5px;
+    margin: 10px 0;
+  }
+  
+  .page3-left ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-top: 10px; /* Ensure the list comes right after the paragraph */
+  }
+  
+  .page3-left ul li {
+    display: flex;
+    align-items: center; /* Align text and image */
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .page3-left ul li img {
+    width: 30px;
+    height: 20px;
+    margin-right: 10px; /* Space between image and text */
+  }
+  
+  .page3-right {
+    width: 60%;
+  }
+  
+  .page3-right img {
+    width: 100%;
+    height: auto;
+  }
+  
