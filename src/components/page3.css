@@ -4,6 +4,7 @@
     align-items: left;
     padding: 50px;
     background-color: rgb(19, 24, 48);
+    height: 500px;
   }
   
   .page3-left {
@@ -38,13 +39,16 @@
   .page3-left ul {
     display: flex;
     flex-direction: column;
-    padding-left: 0px;
-    margin-top: 10px; /* Ensure the list comes right after the paragraph */
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+    margin-top: 10px; 
+
   }
   
   .page3-left ul li {
     display: flex;
-    align-items: left; /* Align text and image */
+    align-items: left; 
     text-align: left;
     font-size: 16px;
     margin-bottom: 5px;
@@ -53,7 +57,7 @@
   .page3-left ul li img {
     width: 30px;
     height: 20px;
-    margin-right: 10px; /* Space between image and text */
+    margin-right: 50px; 
   }
   
   .page3-right {

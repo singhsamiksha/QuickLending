@@ -1,6 +1,3 @@
-.page2{
-    background-color:  rgb(241, 244, 255);
-}
 
 /* Container for the page */
 .page2-container {
@@ -11,6 +8,8 @@
     align-items: center;
     text-align: center;
     padding: 70px 50px;
+    background-color:  rgb(241, 244, 255);
+    height: 550px;
   }
 
   .center-section{
