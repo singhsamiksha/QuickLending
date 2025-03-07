@@ -1,0 +1,86 @@
+/* Container styles */
+.page4-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+  }
+
+  .page4-left{
+    width: 60%;
+  }
+  
+  /* Left section styles */
+  .page4-left p {
+    font-size: 16px;
+    margin: 0;
+    color: black;
+  }
+  
+  .page4-left h1 {
+    font-size: 42px;
+    margin: 5px 0;
+    color: black;
+  }
+  
+  .page4-divider {
+    background-color: rgb(19, 24, 48);
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    padding: 2px 3px;
+    margin: 10px 0;
+  }
+  
+  .page4-left-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Image section */
+  .page4-image img {
+    width: 100%;
+    height: auto;
+    width: 400px;
+    margin: 20px;
+  }
+  
+  /* Right section styles */
+  .page4-right {
+    max-width: 350px;
+    background-color: #e7e7e7;
+    z-index: 3;
+    margin-left: -60px;
+  }
+  
+  .page4-right p {
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    padding: 15px;
+  }
+  
+  .page4-testimonial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    padding: 15px;
+    
+  }
+  
+  .page4-testimonial h4 {
+    font-size: 18px;
+    margin: 0;
+    color: black;
+  }
+  
+  .page4-testimonial p {
+    font-size: 14px;
+    color: #d68c01; /* Placeholder for stars */
+    border: none;
+
+  }
+  

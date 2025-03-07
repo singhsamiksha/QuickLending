@@ -50,14 +50,14 @@ function Page3() {
           className="card-content" 
           style={{
             display: "flex",
-            zIndex: "2",
+            zIndex: "4",
             width: "200px",
-            marginLeft: "-150px",
-            marginBottom: "3px",
+            marginLeft: "100px",
+            marginTop: "-300px",
             justifyContent: "center",
             alignItems: "center",
             gap: "5px",
-            backgroundColor: "rgb(241, 243, 255)"
+            backgroundColor: "rgb(216, 219, 34)"
           }}>
           <CheckCircleIcon 
             className="card-icon"
@@ -70,14 +70,14 @@ function Page3() {
           className="card-content" 
           style={{
             display: "flex",
-            zIndex: "4",
+            zIndex: "5",
             width: "200px",
-            marginLeft: "-150px",
-            marginBottom: "3px",
+            marginLeft: "0px",
+            marginTop: "150px",
             justifyContent: "center",
             alignItems: "center",
             gap: "5px",
-            backgroundColor: "rgb(241, 243, 255)"
+            backgroundColor: "rgb(88, 98, 158)"
           }}>
           <CheckCircleIcon 
             className="card-icon"
@@ -90,14 +90,14 @@ function Page3() {
           className="card-content" 
           style={{
             display: "flex",
-            zIndex: "5",
+            zIndex: "8",
             width: "200px",
-            marginLeft: "-150px",
-            marginBottom: "3px",
+            marginTop: "-400px",
+            marginLeft: "500px",
             justifyContent: "center",
             alignItems: "center",
             gap: "5px",
-            backgroundColor: "rgb(241, 243, 255)"
+            backgroundColor: "rgb(240, 189, 113)"
           }}>
           <CheckCircleIcon 
             className="card-icon"

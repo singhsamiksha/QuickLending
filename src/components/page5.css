@@ -1,0 +1,45 @@
+/* Container styling */
+.page5-container {
+    padding: 50px;
+    background-color: rgb(19, 24, 48);
+  }
+  
+  /* Title styling */
+  .page5-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 42px;
+    color: white; /* Ensure visibility */
+  }
+  
+  /* Divider styling */
+  .page5-divider {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 5px;
+    margin: 30px auto;
+  }
+  
+  /* Accordion styling */
+  .page5-accordion {
+    border-radius: 5px;
+    margin-bottom: 16px;
+    background-color: white; /* Ensure contrast */
+  }
+  
+  .page5-accordion-summary {
+    font-weight: bold;
+  }
+  
+  .page5-accordion-details {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Ensure ExpandMoreIcon is visible */
+  .page5-accordion-summary svg {
+    color: black !important;
+  }
+  

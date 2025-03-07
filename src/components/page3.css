@@ -44,7 +44,7 @@
   
   .page3-left ul li {
     display: flex;
-    align-items: center; /* Align text and image */
+    align-items: left; /* Align text and image */
     text-align: left;
     font-size: 16px;
     margin-bottom: 5px;

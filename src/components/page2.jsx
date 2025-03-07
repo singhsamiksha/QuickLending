@@ -22,7 +22,7 @@ function Page2() {
   return (
     <div className="page2-container">
       <p>How we can help</p>
-      <h1>Loan Types</h1>
+      <h1>Loan <span style={{color: " rgb(67, 81, 151)"}}>Types</span></h1>
       <hr className="page2-divider" />
 
       <ToggleButtonGroup
