@@ -4,6 +4,7 @@ import Page3 from './components/page3';
 import Header from './components/header';
 import Page4 from './components/page4';
 import Page5 from './components/page5';
+import "./App.css";
 
 function App() {
 
