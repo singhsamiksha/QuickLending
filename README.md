@@ -6,7 +6,7 @@ This is a template for a single webpage with basic functionalities implemented u
 
 1. **Clone the repository**  
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/singhsamiksha/QuickLending.git
 2. **Navigate to the project directory**
    ```bash
    cd QuickLending
